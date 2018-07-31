@@ -2,10 +2,10 @@ import java.io.*;
 class LeapYear
 {
      public static void main(String args[])throws IOException {
-	BufferedReader ob = new BufferedReader( new InputStreamReader (System.in));
+	Scanner sc=new Scanner(System.in);
 	int year;
 	System.out.println("Enter any year to check if it's a leap year..");
-	year=Integer.parseInt(ob.readLine());
+	year=sc.nextInt();
 	if( (year%4==0)&&(year%400==0) ) {
 			System.out.println(year +" is an leap year");
 		}
