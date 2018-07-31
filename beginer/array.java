@@ -4,14 +4,13 @@ public class Array_Sum
     public static void main(String[] args) 
     {
         int n,sum=0;
-        Scanner s=new Scanner(System.in);
-        n=s.nextInt();
-        int a[]=new int[n];
-        for(int i=0;i<n;i++)
+        Scanner sc=new Scanner(System.in);
+        int a[]=new int[5];
+        for(int i=0;i<5;i++)
         {
             a[i]=s.nextInt();
             sum=sum+a[i];
         }
-        System.out.println("Sum:"+sum);
+        System.out.println(sum);
     }
 }
