@@ -8,7 +8,7 @@ public class Array_Sum
         int a[]=new int[5];
         for(int i=0;i<5;i++)
         {
-            a[i]=s.nextInt();
+            a[i]=sc.nextInt();
             sum=sum+a[i];
         }
         System.out.println(sum);
