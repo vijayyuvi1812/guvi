@@ -3,10 +3,12 @@ public class Array_Sum
 {
     public static void main(String[] args) 
     {
-        int n,sum=0;
+        int n,k,sum=0;
         Scanner sc=new Scanner(System.in);
-        int a[]=new int[5];
-        for(int i=0;i<5;i++)
+        n=sc.nextInt();
+        k=sc.nextInt();
+        int a[]=new int[n];
+        for(int i=0;i<k;i++)
         {
             a[i]=sc.nextInt();
             sum=sum+a[i];
