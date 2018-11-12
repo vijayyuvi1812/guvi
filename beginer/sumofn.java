@@ -4,7 +4,7 @@ public class Natural
     {
         int x,i=1 ;
         int sum=0;
-        System.out.println("Enter Number of items :");
+        
         Scanner sc=new Scanner(System.in);
         x = sc.nextInt();
         while(i<=x)
@@ -12,5 +12,5 @@ public class Natural
             sum=sum+i;
             i++;
         }
-        System.out.println("Sum of "+x+" numbers is :"+sum);
+        System.out.println(sum);
     } 
