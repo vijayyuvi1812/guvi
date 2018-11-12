@@ -16,6 +16,6 @@ class Ideone
 			n=n/10;
 			num++;
 		}
-		System.out.println("number of digits are "+num);
+		System.out.println(num);
 	}
 }
